@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.type {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 5px;
+  margin-bottom: 16px;
+}
+
+.card {
+  border-radius: 12px;
+  display: inline-block;
+  background-color: #da3150;
+  box-shadow: 0px 6px 3px 6px #e9d41942;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 30px 15px 35px;
+}
+
+.card img {
+  width: 150%;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+button {
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 6px;
+  background: #4242f3;
+}
+button:hover {
+  background: #1a1374;
+}
+
+.name {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.id {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 5px;
+  font-weight: lighter;
+}
